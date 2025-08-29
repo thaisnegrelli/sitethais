@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imagem = document.getElementById('minhaImagem');
 
     botaoImagem.addEventListener('click', function() {
-        const novaImagemURL = 'https://via.placeholder.com/400/FF0000/FFFFFF?text=Nova+Imagem';
+        const novaImagemURL = 'https://cdn.pixabay.com/photo/2020/02/27/17/24/connection-4885313_960_720.jpg/FF0000/FFFFFF?text=Nova+Imagem';
         imagem.src = novaImagemURL;
     });
 
