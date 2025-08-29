@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imagem = document.getElementById('minhaImagem');
 
     botaoImagem.addEventListener('click', function() {
-        const novaImagemURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdC6pOMQAeEtN-YAhR4P4_M2NHvFlER-eU3g&s/FF0000/FFFFFF?text=Nova+Imagem';
+        const novaImagemURL = 'https://png.pngtree.com/background/20250504/original/pngtree-connected-continents-uniting-the-world-through-diplomacy-picture-image_16324324.jpg';
         imagem.src = novaImagemURL;
     });
 
