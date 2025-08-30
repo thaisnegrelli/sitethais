@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imagem = document.getElementById('minhaImagem');
 
     botaoImagem.addEventListener('click', function() {
-        const novaImagemURL = 'https://cdn.pixabay.com/photo/2020/03/19/21/35/covid-4948866_1280.jpg';
+        const novaImagemURL = 'https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_960_720.jpg 1x, https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_1280.jpg';
         imagem.src = novaImagemURL;
     });
 
@@ -23,4 +23,3 @@ document.addEventListener('DOMContentLoaded', function() {
         titulo.textContent = 'O mundo é nosso!';
     });
 });
-
