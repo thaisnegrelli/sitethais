@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imagem = document.getElementById('minhaImagem');
 
     botaoImagem.addEventListener('click', function() {
-        const novaImagemURL = 'https://png.pngtree.com/background/20250504/original/pngtree-connected-continents-uniting-the-world-through-diplomacy-picture-image_16324324.jpg';
+        const novaImagemURL = 'https://cdn.pixabay.com/photo/2020/03/19/21/35/covid-4948866_1280.jpg';
         imagem.src = novaImagemURL;
     });
 
