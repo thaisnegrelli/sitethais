@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const titulo = document.querySelector('h1');
 
     botaoTexto.addEventListener('click', function() {
-        titulo.textContent = 'O mundo é nosso!';
+        titulo.textContent = 'Este é meu 1º site!';
     });
 });
