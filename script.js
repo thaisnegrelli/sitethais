@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imagem = document.getElementById('minhaImagem');
 
     botaoImagem.addEventListener('click', function() {
-        const novaImagemURL = 'https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_960_720.jpg 1x, https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401_1280.jpg';
+        const novaImagemURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdC6pOMQAeEtN-YAhR4P4_M2NHvFlER-eU3g&s';
         imagem.src = novaImagemURL;
     });
 
